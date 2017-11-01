@@ -1,0 +1,17 @@
+// PARTIALS
+
+@import 'partials/vars';
+
+
+
+// GENERAL
+
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  color: $font-col;
+  background: $back-col;
+}
